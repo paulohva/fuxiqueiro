@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neo-yellow: #FFDE00;
+  --color-neo-pink: #FF90E8;
+  --color-neo-blue: #23A6F0; /* Updated from #00E0FF */
+  --color-neo-green: #00E054; /* Updated from #00FF94 */
+  --color-neo-red: #FF4444; /* Updated from #FF5252 */
+  --color-neo-off-white: #f0f0f0; /* Updated from #FAFAFA */
+  --color-neo-light-yellow: #fff9c4; /* Updated from #FEF08A */
+  --color-neo-light-pink: #f8bbd0; /* Updated from #FBCFE8 */
+  --color-neo-light-blue: #b3e5fc; /* Updated from #BAE6FD */
+  --color-neo-light-green: #c8e6c9; /* Updated from #BBF7D0 */
+
+  --shadow-neo: 4px 4px 0px 0px rgba(0,0,0,1);
+  --shadow-neo-sm: 2px 2px 0px 0px rgba(0,0,0,1);
+  --shadow-neo-lg: 8px 8px 0px 0px rgba(0,0,0,1);
+  --animate-progress-indeterminate: progress-indeterminate 1.5s infinite linear;
+  
+  @keyframes progress-indeterminate {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+}
