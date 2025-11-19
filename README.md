@@ -7,7 +7,7 @@ A local network scanner and port analyzer built with Electron, React, and TypeSc
 - Scans local network for connected devices
 - Identifies device vendors and hostnames
 - Scans open ports on selected devices
-- High-contrast UI design
+
 
 ## Usage
 
